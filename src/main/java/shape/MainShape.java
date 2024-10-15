@@ -16,27 +16,5 @@ public class MainShape {
 			System.out.println("Il triangolo t1 è più grande del triangolo t2");
 		}
 
-		int a = 2;
-		int b = 17;
-		int c = 9;
-		int sum = a + b + c;
-		boolean isTeen = fixTeen(a) == 0 ||fixTeen(b) == 0 || fixTeen(c) == 0;
-		if (isTeen) {
-			sum = fixTeen(a) + fixTeen(b) + fixTeen(c);
-			System.out.println(sum);
-		}else {
-			System.out.println(sum);
-		}
-		
-
 	}
-
-public static int fixTeen (int n) {
-if((n>=13 && n<=19) && (n!=15 && n!=16)) {
-	n = 0;
-	return n;
-}else {
-	return n;
-}
-}
 }
