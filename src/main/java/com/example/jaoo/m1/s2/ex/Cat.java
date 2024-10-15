@@ -10,4 +10,8 @@ package com.example.jaoo.m1.s2.ex;
  */
 public class Cat {
     // TODO: define the method meow() that prints "meow!" to standard output
+public static void meow () {
+	System.out.println("meow!");
+	
+}
 }
